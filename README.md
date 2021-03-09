@@ -31,12 +31,13 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
-| Name     | Function    | IP Address | Operating System |
-|----------|-------------|------------|------------------|
-| Jump Box | Gateway     | 10.0.0.09  | Linux            |
-| Web 1    | Configure   | 10.0.0.10  | Linux            |
-| Web 2    | Load Balance| 10.0.0.11  | Linux            |
-| Web 3    | Load Balance| 10.0.0.12  | Linux            |
+| Name         | Function    | IP Address | Operating System |
+|--------------|-------------|------------|------------------|
+| Jump Box     | Gateway     | 10.0.0.09  | Linux            |
+| Web 1        | Configure   | 10.0.0.10  | Linux            |
+| Web 2        | Load Balance| 10.0.0.11  | Linux            |
+| Web 3        | Load Balance| 10.0.0.12  | Linux            |
+|ElkServerHost | Monitoring  | 10.1.0.4   | Linux            |
 
 ### Access Policies
 
@@ -50,12 +51,13 @@ Machines within the network can only be accessed by ssh.
 
 A summary of the access policies in place can be found in the table below.
 
-| Name     | Publicly Accessible | Allowed IP Addresses |
-|----------|---------------------|----------------------|
-| Jump Box | Yes                 |  205.197.212.210     |
-| Web 1    | No                  |  10.0.0.09           |
-| Web 2    | No                  |  10.0.0.09           |
-| Web 3    | No                  |  10.0.0.09           |
+| Name         | Publicly Accessible | Allowed IP Addresses      |
+|--------------|---------------------|---------------------------|
+| Jump Box     | Yes                 |  205.197.212.210          |
+| Web 1        | No                  |  10.0.0.09                |
+| Web 2        | No                  |  10.0.0.09                |
+| Web 3        | No                  |  10.0.0.09                |
+|ElkServerHost | Yes                 |  10.0.0.9 /205.197.212.210| 
 
 ### Elk Configuration
 
