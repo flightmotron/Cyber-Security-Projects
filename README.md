@@ -37,7 +37,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 | Web 1        | Configure   | 10.0.0.10  | Linux            |
 | Web 2        | Load Balance| 10.0.0.11  | Linux            |
 | Web 3        | Load Balance| 10.0.0.12  | Linux            |
-|ElkServerHost | Monitoring  | 10.1.0.4   | Linux            |
+|ElkServerHost | Mon. / Log. | 10.1.0.4   | Linux            |
 
 ### Access Policies
 
